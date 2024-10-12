@@ -32,3 +32,83 @@ nav a:hover {
 h1 {
   color: #333;
 }
+nav img {
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  align-items: center; /* Vertically centers items in the nav */
+  justify-content: space-between; /* Space between logo and links */
+  background-color: #4CAF50; /* Change to your desired background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+nav img {
+  height: 50px; /* Adjust height of the logo */
+  width: auto; /* Keep aspect ratio */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Align links in a row */
+}
+
+nav ul li {
+  margin-left: 20px; /* Space between links */
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+body {
+  font-family: Arial, sans-serif; /* Global font style */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4CAF50; /* Header background color */
+  padding: 10px 20px;
+}
+
+nav img {
+  height: 80px; /* Set logo height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Align items horizontally */
+}
+
+nav ul li {
+  margin-left: 20px; /* Space between list items */
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+  padding: 20px; /* Padding for page content */
+}
